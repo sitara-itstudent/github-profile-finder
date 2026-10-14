@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <form id="main">
+        <input   id="profile"  type="text"  placeholder="  Enter  the  github  id  ">
+        <button id="btn"  type="submit">get data</button>
+        
+    </form>
+    <p id="error"></p>
+     <div   id  ="card">
+        <div id="wrapper">
+    <div id="main-card">
+        <div id="profile-card">
+            <div class="top-section">
+                <div class="left">
+                    <img id="avatar" src="">
+                </div>
+                <div class="right">
+                    <div id="follow">
+                        <div id="followers"></div>
+                        <div id="following"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bio-section">
+                <h2 id="name"></h2>
+                <a id="username" href="" target="_blank"></a>
+                <p id="bio"></p>
+            </div>
+
+            <div class="meta-section">
+                <span id="location"></span>
+                <span id="company"></span>
+            </div>
+
+            <div id="line"></div>
+
+            <div class="stats-section">
+                <div id="div1"></div>
+                <div id="div2"></div>
+                <div id="div3"></div>
+            </div>
+
+            <div id="line2"></div>
+
+            <div class="cta-section">
+                <a id="viewProfile" href="" target="_blank">View Full Profile</a>
+            </div>
+        </div> 
+     </div>
+</div>
+ </div>
+     
+            
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+   <script src="app.js"></script> 
+</body>
+</html>
